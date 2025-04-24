@@ -1,4 +1,5 @@
 [data-theme="Mode 1"] {
+  --base-bg-neutral-neutral close: var(--absolut-White Alpha-900);
   --brand-ol-on_brand gentle: var(--absolut-White Alpha-500);
   --brand-bg-brand moderate: var(--Bondi-700);
   --base-fg-neutral-neutral inverse: var(--absolut-white);
@@ -9,7 +10,6 @@
   --base-bg-shade-shade subtle: var(--absolut-Black Alpha-50);
   --base-bg-action-action moderate: var(--Blue Alpha- 500);
   --accent-fg-action-action inverse: var(--Blue-600);
-  --base-bg-neutral-neutral close: var(--absolut-White Alpha-950);
   --base-bg-neutral-neutral far: var(--Slate-200);
   --base-fg-neutral-neutral strong: var(--absolut-Black Alpha-800);
   --base-fg-neutral-neutral moderate: var(--absolut-Black Alpha-700);
@@ -177,6 +177,8 @@
 }
 
 [data-theme="loose"] {
+  --card-padding large: var(--Size-Minor-Minor-Large);
+  --page body-padding bottom: var(--Size-Medium-Medium-XLarge);
   --card-radius: var(--Radius-Radius-XSmall);
   --page body-margin top negative: var(--Size-Negative-Negative-Minor-Large);
   --card-padding: var(--Size-Minor-Minor-Small);
@@ -186,6 +188,8 @@
 }
 
 [data-theme="tight"] {
+  --card-padding large: var(--Size-Minor-Minor-Large);
+  --page body-padding bottom: var(--Size-Medium-Medium-XLarge);
   --card-radius: var(--Radius-Radius-XSmall);
   --page body-margin top negative: var(--Size-Negative-Negative-Minor-Large);
   --card-padding: var(--Size-Minor-Minor-Small);
