@@ -131,37 +131,39 @@
 }
 
 [data-theme="Value"] {
-  --Spacing and Sizing-Negative-Negative-Mini-Thin: var(--p-01_negative);
-  --Spacing and Sizing-Mini-Mini-Thin: var(--p-01);
-  --Spacing and Sizing-Mini-Mini-Zero: var(--p-00);
-  --Spacing and Sizing-Negative-Negative-Mini-XSmall: var(--p-02_negative);
-  --Spacing and Sizing-Negative-Negative-Mini-Small: var(--p-04_negative);
-  --Spacing and Sizing-Negative-Negative-Mini-Large: var(--p-08_negative);
-  --Spacing and Sizing-Mini-Mini-Large: var(--p-08);
-  --Spacing and Sizing-Mini-Mini-Regular: var(--p-06);
-  --Spacing and Sizing-Mini-Mini-Small: var(--p-04);
-  --Spacing and Sizing-Mini-Mini-XLarge: var(--p-10);
-  --Spacing and Sizing-Mini-Mini-XSmall: var(--p-02);
-  --Spacing and Sizing-Minor-Minor-Large: var(--p-24);
-  --Spacing and Sizing-Minor-Minor-Regular: var(--p-20);
-  --Spacing and Sizing-Minor-Minor-XLarge: var(--p-28);
-  --Spacing and Sizing-Minor-Minor-Small: var(--p-16);
-  --Spacing and Sizing-Minor-Minor-XSmall: var(--p-12);
-  --Spacing and Sizing-Medium-Medium-Small: var(--p-36);
-  --Spacing and Sizing-Medium-Medium-XLarge: var(--p-48);
-  --Spacing and Sizing-Medium-Medium-Large: var(--p-44);
-  --Spacing and Sizing-Medium-Medium-Regular: var(--p-40);
-  --Spacing and Sizing-Medium-Medium-XSmall: var(--p-32);
-  --Spacing and Sizing-Major-Major-XLarge: var(--p-68);
-  --Spacing and Sizing-Major-Major-Regular: var(--p-60);
-  --Spacing and Sizing-Major-Major-Small: var(--p-56);
-  --Spacing and Sizing-Major-Major-Large: var(--p-64);
-  --Spacing and Sizing-Major-Major-XSmall: var(--p-52);
-  --Spacing and Sizing-Maxi-Maxi-Large: var(--p-96);
-  --Spacing and Sizing-Maxi-Maxi-XLarge: var(--p-104);
-  --Spacing and Sizing-Maxi-Maxi-Small: var(--p-80);
-  --Spacing and Sizing-Maxi-Maxi-Regular: var(--p-88);
-  --Spacing and Sizing-Maxi-Maxi-XSmall: var(--p-72);
+  --Size-Negative-Negative-Mini-Thin: var(--p-01_negative);
+  --Size-Mini-Mini-Thin: var(--p-01);
+  --Size-Mini-Mini-Zero: var(--p-00);
+  --Size-Negative-Negative-Mini-XSmall: var(--p-02_negative);
+  --Size-Negative-Negative-Mini-Small: var(--p-04_negative);
+  --Size-Negative-Negative-Mini-Large: var(--p-08_negative);
+  --Size-Mini-Mini-Large: var(--p-08);
+  --Size-Mini-Mini-Regular: var(--p-06);
+  --Size-Mini-Mini-Small: var(--p-04);
+  --Size-Mini-Mini-XLarge: var(--p-10);
+  --Size-Mini-Mini-XSmall: var(--p-02);
+  --Size-Minor-Minor-Large: var(--p-24);
+  --Size-Minor-Minor-Regular: var(--p-20);
+  --Size-Minor-Minor-XLarge: var(--p-28);
+  --Size-Minor-Minor-Small: var(--p-16);
+  --Size-Minor-Minor-XSmall: var(--p-12);
+  --Size-Medium-Medium-Small: var(--p-36);
+  --Size-Medium-Medium-XLarge: var(--p-48);
+  --Size-Medium-Medium-Large: var(--p-44);
+  --Size-Medium-Medium-Regular: var(--p-40);
+  --Size-Medium-Medium-XSmall: var(--p-32);
+  --Size-Major-Major-XLarge: var(--p-68);
+  --Size-Major-Major-Regular: var(--p-60);
+  --Size-Major-Major-Small: var(--p-56);
+  --Size-Major-Major-Large: var(--p-64);
+  --Size-Major-Major-XSmall: var(--p-52);
+  --Size-Maxi-Maxi-Large: var(--p-96);
+  --Size-Maxi-Maxi-XLarge: var(--p-104);
+  --Size-Maxi-Maxi-Small: var(--p-80);
+  --Size-Maxi-Maxi-Regular: var(--p-88);
+  --Size-Maxi-Maxi-XSmall: var(--p-72);
+  --Size-Negative-Negative-Mini-Regular: var(--p-06_negative);
+  --Size-Negative-Negative-Minor-Large: var(--p-24_negative);
   --Radius-Radius-XXXLarge: var(--p-48);
   --Radius-Radius-XLarge: var(--p-24);
   --Radius-Radius-Full: var(--p-);
@@ -172,26 +174,24 @@
   --Radius-Radius-XSmall: var(--p-04);
   --Radius-Radius-XXSmall: var(--p-02);
   --Radius-Radius-Regular: var(--p-12);
-  --Spacing and Sizing-Negative-Negative-Mini-Regular: var(--p-06_negative);
-  --Spacing and Sizing-Negative-Negative-Minor-Large: var(--p-24_negative);
 }
 
 [data-theme="loose"] {
   --card-radius: var(--Radius-Radius-XSmall);
-  --page body-margin top negative: var(--Spacing and Sizing-Negative-Negative-Minor-Large);
-  --card-padding: var(--Spacing and Sizing-Minor-Minor-Small);
-  --platform nav header short: var(--Spacing and Sizing-Maxi-Maxi-Small);
+  --page body-margin top negative: var(--Size-Negative-Negative-Minor-Large);
+  --card-padding: var(--Size-Minor-Minor-Small);
+  --platform nav header short: var(--Size-Maxi-Maxi-Small);
   --container max-width: 1392px;
-  --page body-padding horizontal: var(--Spacing and Sizing-Minor-Minor-Large);
+  --page body-padding horizontal: var(--Size-Minor-Minor-Large);
 }
 
-[data-theme="Tight"] {
+[data-theme="tight"] {
   --card-radius: var(--Radius-Radius-XSmall);
-  --page body-margin top negative: var(--Spacing and Sizing-Negative-Negative-Minor-Large);
-  --card-padding: var(--Spacing and Sizing-Minor-Minor-Small);
-  --platform nav header short: var(--Spacing and Sizing-Maxi-Maxi-Small);
+  --page body-margin top negative: var(--Size-Negative-Negative-Minor-Large);
+  --card-padding: var(--Size-Minor-Minor-Small);
+  --platform nav header short: var(--Size-Maxi-Maxi-Small);
   --container max-width: 1392px;
-  --page body-padding horizontal: var(--Spacing and Sizing-Minor-Minor-Large);
+  --page body-padding horizontal: var(--Size-Minor-Minor-Large);
 }
 
 [data-theme="Mode 1"] {
