@@ -1,4 +1,5 @@
 [data-theme="Mode 1"] {
+  --accent-bg-lighten-lighten subtle: var(--absolut-White Alpha-100);
   --base-bg-neutral-neutral close: var(--absolut-White Alpha-900);
   --brand-ol-on_brand gentle: var(--absolut-White Alpha-500);
   --brand-bg-brand moderate: var(--Bondi-700);
