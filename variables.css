@@ -1,7 +1,4 @@
 [data-theme="Mode 1"] {
-  --accent-bg-lighten-lighten subtle: var(--absolut-White Alpha-100);
-  --base-bg-neutral-neutral close: var(--absolut-White Alpha-900);
-  --brand-ol-on_brand gentle: var(--absolut-White Alpha-500);
   --brand-bg-brand moderate: var(--Bondi-700);
   --base-fg-neutral-neutral inverse: var(--absolut-white);
   --base-bg-shade-shade strong: var(--absolut-Black Alpha-700);
@@ -11,6 +8,7 @@
   --base-bg-shade-shade subtle: var(--absolut-Black Alpha-50);
   --base-bg-action-action moderate: var(--Blue Alpha- 500);
   --accent-fg-action-action inverse: var(--Blue-600);
+  --base-bg-neutral-neutral close: var(--absolut-White Alpha-900);
   --base-bg-neutral-neutral far: var(--Slate-200);
   --base-fg-neutral-neutral strong: var(--absolut-Black Alpha-800);
   --base-fg-neutral-neutral moderate: var(--absolut-Black Alpha-700);
@@ -85,6 +83,8 @@
   --brand-ol-brand gentle: var(--Bondi Alpha-700-40);
   --brand-fg-on_brand vivid: var(--absolut-white);
   --accent-bg-lighten-lighten weak: var(--absolut-White Alpha-200);
+  --brand-ol-on_brand gentle: var(--absolut-White Alpha-500);
+  --accent-bg-lighten-lighten subtle: var(--absolut-White Alpha-100);
 }
 
 [data-theme="Mode 1"] {
@@ -135,13 +135,10 @@
   --Size-Negative-Negative-Mini-Thin: var(--p-01_negative);
   --Size-Mini-Mini-Thin: var(--p-01);
   --Size-Mini-Mini-Zero: var(--p-00);
-  --Size-Negative-Negative-Mini-XSmall: var(--p-02_negative);
-  --Size-Negative-Negative-Mini-Small: var(--p-04_negative);
   --Size-Negative-Negative-Mini-Large: var(--p-08_negative);
   --Size-Mini-Mini-Large: var(--p-08);
   --Size-Mini-Mini-Regular: var(--p-06);
   --Size-Mini-Mini-Small: var(--p-04);
-  --Size-Mini-Mini-XLarge: var(--p-10);
   --Size-Mini-Mini-XSmall: var(--p-02);
   --Size-Minor-Minor-Large: var(--p-24);
   --Size-Minor-Minor-Regular: var(--p-20);
@@ -150,7 +147,6 @@
   --Size-Minor-Minor-XSmall: var(--p-12);
   --Size-Medium-Medium-Small: var(--p-36);
   --Size-Medium-Medium-XLarge: var(--p-48);
-  --Size-Medium-Medium-Large: var(--p-44);
   --Size-Medium-Medium-Regular: var(--p-40);
   --Size-Medium-Medium-XSmall: var(--p-32);
   --Size-Major-Major-XLarge: var(--p-68);
@@ -159,12 +155,8 @@
   --Size-Major-Major-Large: var(--p-64);
   --Size-Major-Major-XSmall: var(--p-52);
   --Size-Maxi-Maxi-Large: var(--p-96);
-  --Size-Maxi-Maxi-XLarge: var(--p-104);
   --Size-Maxi-Maxi-Small: var(--p-80);
-  --Size-Maxi-Maxi-Regular: var(--p-88);
   --Size-Maxi-Maxi-XSmall: var(--p-72);
-  --Size-Negative-Negative-Mini-Regular: var(--p-06_negative);
-  --Size-Negative-Negative-Minor-Large: var(--p-24_negative);
   --Radius-Radius-XXXLarge: var(--p-48);
   --Radius-Radius-XLarge: var(--p-24);
   --Radius-Radius-Full: var(--p-);
@@ -175,28 +167,29 @@
   --Radius-Radius-XSmall: var(--p-04);
   --Radius-Radius-XXSmall: var(--p-02);
   --Radius-Radius-Regular: var(--p-12);
+  --Size-Negative-Negative-Minor-Large: var(--p-24_negative);
 }
 
 [data-theme="loose"] {
-  --card-padding large: var(--Size-Minor-Minor-Large);
-  --page body-padding bottom: var(--Size-Medium-Medium-XLarge);
   --card-radius: var(--Radius-Radius-XSmall);
   --page body-margin top negative: var(--Size-Negative-Negative-Minor-Large);
   --card-padding: var(--Size-Minor-Minor-Small);
   --platform nav header short: var(--Size-Maxi-Maxi-Small);
   --container max-width: 1392px;
   --page body-padding horizontal: var(--Size-Minor-Minor-Large);
+  --card-padding large: var(--Size-Minor-Minor-Large);
+  --page body-padding bottom: var(--Size-Medium-Medium-XLarge);
 }
 
 [data-theme="tight"] {
-  --card-padding large: var(--Size-Minor-Minor-Large);
-  --page body-padding bottom: var(--Size-Medium-Medium-XLarge);
   --card-radius: var(--Radius-Radius-XSmall);
   --page body-margin top negative: var(--Size-Negative-Negative-Minor-Large);
   --card-padding: var(--Size-Minor-Minor-Small);
   --platform nav header short: var(--Size-Maxi-Maxi-Small);
   --container max-width: 1392px;
   --page body-padding horizontal: var(--Size-Minor-Minor-Large);
+  --card-padding large: var(--Size-Minor-Minor-Large);
+  --page body-padding bottom: var(--Size-Medium-Medium-XLarge);
 }
 
 [data-theme="Mode 1"] {
@@ -236,42 +229,10 @@
   --paragraph spacing-small: var(--p-08);
   --paragraph spacing-x-small: var(--p-04);
   --paragraph spacing-x-large: var(--p-24);
+  --weight-thin: 200px;
 }
 
 [data-theme="Mode 1"] {
-  --Roman Alpha-950: 4b0e02;
-  --Roman Alpha-900: 680f02;
-  --Roman Alpha-800: 871002;
-  --Roman Alpha-700: 9a0b00;
-  --Roman Alpha-600: b60801;
-  --Roman Alpha-500: bf0101;
-  --Roman Alpha-400: d20008;
-  --Roman Alpha-300: dc0111;
-  --Roman Alpha-200: e10519;
-  --Roman Alpha-100: ed001c;
-  --Roman Alpha-50: ee0537;
-  --Ochre Alpha-50: f5dc00;
-  --Ochre Alpha-100: edc705;
-  --Ochre Alpha-200: e8ae02;
-  --Ochre Alpha-300: e19900;
-  --Ochre Alpha-400: db8702;
-  --Ochre Alpha-500: d37601;
-  --Ochre Alpha-600: bc5e01;
-  --Ochre Alpha-700: 994d00;
-  --Ochre Alpha-800: 7a4100;
-  --Ochre Alpha-900: 613c00;
-  --Ochre Alpha-950: 473200;
-  --Blue Alpha- 200: 0975fb;
-  --Blue Alpha- 600: 024ae8;
-  --Blue Alpha- 700: 0138d3;
-  --Blue Alpha- 400: 0370f7;
-  --Blue Alpha- 500: 005df3;
-  --Blue Alpha- 50: 1a7eff;
-  --Blue Alpha- 800: 0228a5;
-  --Blue Alpha- 300: 0478fa;
-  --Blue Alpha- 900: 02227c;
-  --Blue Alpha- 100: 0f73f8;
-  --Blue Alpha- 950: 000f43;
   --Slate-50: f8fafc;
   --Slate-100: f1f5f9;
   --Slate-200: e2e8f0;
@@ -375,6 +336,39 @@
   --Grass Alpha-800: 205a01;
   --Grass Alpha-900: 174701;
   --Grass Alpha-950: 0f3800;
+  --Roman Alpha-950: 4b0e02;
+  --Roman Alpha-900: 680f02;
+  --Roman Alpha-800: 871002;
+  --Roman Alpha-700: 9a0b00;
+  --Roman Alpha-600: b60801;
+  --Roman Alpha-500: bf0101;
+  --Roman Alpha-400: d20008;
+  --Roman Alpha-300: dc0111;
+  --Roman Alpha-200: e10519;
+  --Roman Alpha-100: ed001c;
+  --Roman Alpha-50: ee0537;
+  --Ochre Alpha-50: f5dc00;
+  --Ochre Alpha-100: edc705;
+  --Ochre Alpha-200: e8ae02;
+  --Ochre Alpha-300: e19900;
+  --Ochre Alpha-400: db8702;
+  --Ochre Alpha-500: d37601;
+  --Ochre Alpha-600: bc5e01;
+  --Ochre Alpha-700: 994d00;
+  --Ochre Alpha-800: 7a4100;
+  --Ochre Alpha-900: 613c00;
+  --Ochre Alpha-950: 473200;
+  --Blue Alpha- 200: 0975fb;
+  --Blue Alpha- 600: 024ae8;
+  --Blue Alpha- 700: 0138d3;
+  --Blue Alpha- 400: 0370f7;
+  --Blue Alpha- 500: 005df3;
+  --Blue Alpha- 50: 1a7eff;
+  --Blue Alpha- 800: 0228a5;
+  --Blue Alpha- 300: 0478fa;
+  --Blue Alpha- 900: 02227c;
+  --Blue Alpha- 100: 0f73f8;
+  --Blue Alpha- 950: 000f43;
   --Bondi Alpha-700-20: 0b91b2;
   --Bondi Alpha-700-40: 0b91b2;
 }
